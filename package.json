@@ -1,15 +1,21 @@
 {
-    "name": "consoles",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "consoles": "^1.0.0"
-    }
+  "name": "consoles",
+  "version": "1.1.1",
+  "description": "A simple package file for JavaScript applications to work with browser console.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silverabbot/consoles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/silverabbot/consoles/issues"
+  },
+  "homepage": "https://github.com/silverabbot/consoles#readme"
 }
