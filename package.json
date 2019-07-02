@@ -9,7 +9,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "lodash": "^4.17.11"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/silverabbot/consoles.git"

@@ -1,33 +1,16 @@
-const C = function(...S) {
-    let len = S.length;
-    if (len <= 1) {
-        return console.log(S[0]);
-    }
-    if (len >= 1) {
-        var v = [];
-        for (i = 0; i < len; i++) {
-            v.push(S[i])
-        }
-        return console.log(v);
-    }
-}
+//const chalk = require('chalk');
+var C = require('./console');
+var ToLow = require('./tolow');
+var T = require('./type');
+const tolow = ToLow;
+const toL = ToLow;
+const consol = C;
 const c = C;
-const consoles = C;
-
-const T = function(...S) {
-    let len = S.length;
-    if (len <= 1) {
-        return console.log(typeof S[0]);
-    }
-    if (len >= 1) {
-        var v = [];
-        for (i = 0; i < len; i++) {
-            v.push(typeof S[i])
-        }
-        return console.log(v);
-    }
-}
+const log = C;
+const type = T;
 const t = T;
 const types = T;
-const type = T;
-module.exports = { C, c, consoles, t, type, types, T };
+
+con = { C, c, log, consol, T, t, types, type, tolow, toL }
+
+module.exports = con;
